@@ -31,7 +31,7 @@ variable "bucket_name" {
 variable "force_destroy_bucket" {
   description = "Allow bucket deletion even when non-empty"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "workflow_service_account_id" {

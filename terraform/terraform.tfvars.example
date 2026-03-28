@@ -3,5 +3,5 @@ region                     = "us-east1"
 bucket_location            = "US"
 bucket_prefix              = "ie7343-mlops-lab5"
 # bucket_name              = "optional-explicit-bucket-name"
-force_destroy_bucket       = false
+force_destroy_bucket       = true
 workflow_service_account_id = "lab5-workflow-sa"
